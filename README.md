@@ -66,7 +66,17 @@ Skrill 是 2001 年成立的电子钱包，Paysafe 旗下，钱包余额可配 S
 
 bunq 是持荷兰中央银行（DNB）牌照的荷兰数字银行，主要在欧洲经济区服务。免费方案含 1 张数字卡，Pro 方案含 3 张实体卡与 25 张数字卡，付费方案提供 ZeroFX 外币交易，数字卡可绑 Apple Pay / Google Pay。适合欧洲本地的多账户预算管理，开户按居住地与身份验证走。
 
-## 七个平台横向对照
+## 8. Facebook Ads：广告付款对象，不发行虚拟卡
+
+官方入口与帮助页：https://www.facebook.com/business/ ｜ https://business.facebook.com/ ｜ https://adsmanager.facebook.com/
+
+Facebook（Meta）不发卡，它是这批平台里最常见的广告付款对象，所以不进下面的发卡平台对照表。Meta 官方帮助页列出的广告付款方式包括 American Express、Discover、Mastercard、Visa、JCB 的信用卡或借记卡，以及 PayPal、受支持国家/地区的银行账户直接扣款和本地手动支付方式；具体可用哪些取决于广告账户设置的国家/地区与货币。创建首条广告时选的付款方式会决定后续支付设置：选信用卡/借记卡或 PayPal 且银行支持定期付款，账户走自动支付；选本地手动支付方式，则走可用充值金，部分广告主可在同一账户同时使用两种。官方说明见 https://zh-cn.facebook.com/business/help/212763688755026?id=160022731342707 。
+
+后台里业务资产组合、公共主页和广告账户是三个不同对象。添加付款方式走「账单与付款 → 付款设置 → 添加付款方式」，按卡片登记资料填写全名、卡号、有效期和安全码；账单地址按卡片详情填写，公司所在地与税务资料要填真实业务信息，不能拿卡片地址代替。Meta 还要求付款方式已开通线上交易、绑定能接收一次性密码的手机号，操作者具备广告账户的完全控制权或管理员权限。保存后核对卡片末四位与主付款方式；绑卡时出现的验证或预授权，不等于广告已投放，也不等于广告费已结算。
+
+自动支付账户通常在累计费用达到付款额度或账单日扣款，一次投放可能分多次扣款；预付余额账户先充值再从余额扣广告费，并非所有地区都能切换。收据里的账户、日期、币种、金额与卡号末四位要和卡侧交易逐笔核对。暂停或关闭广告只停止后续投放，此前已产生的费用仍需结清，删除、冻结或注销卡片都不能取消这些费用。分步操作见 https://pikabao.com/guides/fb-ads-first-setup/ 。
+
+## 七个发卡平台横向对照
 
 | 平台 | 平台定位 / 卡的性质 | 卡段 / 地区 | 多卡能力 | 主要费用 | 更适合的场景 |
 | --- | --- | --- | --- | --- | --- |
@@ -112,12 +122,13 @@ AWS、Cloudflare、Namecheap 这类云服务与域名续费，要区分固定订
 
 ## 资料来源
 
-核对日期 2026-11-16，以各平台官方页面及品牌官方页面为准：
+核对日期 2026-11-16，Facebook Ads 章节 2026-11-17 补核，以各平台官方页面及品牌官方页面为准：
 
-- PIKABAO：https://pikabao.com/ ｜ https://pikabao.com/scene/ ｜ https://pikabao.com/scene/ads/ ｜ https://pikabao.com/platforms/ ｜ https://pikabao.com/pricing/ ｜ https://pikabao.com/ai-compatibility/ ｜ https://pikabao.com/compliance/ ｜ https://pikabao.com/blog/ads-tutorial/google-ads-account-setup/ ｜ https://pikabao.com/blog/troubleshoot/fb-ads-card-declined/ ｜ 品牌页 https://veryfb.com/pikabao
+- PIKABAO：https://pikabao.com/ ｜ https://pikabao.com/scene/ ｜ https://pikabao.com/scene/ads/ ｜ https://pikabao.com/platforms/ ｜ https://pikabao.com/pricing/ ｜ https://pikabao.com/ai-compatibility/ ｜ https://pikabao.com/compliance/ ｜ https://pikabao.com/blog/ads-tutorial/google-ads-account-setup/ ｜ https://pikabao.com/blog/troubleshoot/fb-ads-card-declined/ ｜ https://pikabao.com/guides/fb-ads-first-setup/ ｜ 品牌页 https://veryfb.com/pikabao
 - Wise：https://wise.com/card/
 - Revolut：https://www.revolut.com/
 - Privacy.com：https://privacy.com/
 - Payoneer：https://www.payoneer.com/ ｜ https://payoneer.custhelp.com/app/answers/detail/a_id/18226/
 - Skrill：https://www.skrill.com/
 - bunq：https://www.bunq.com/
+- Facebook / Meta：https://www.facebook.com/business/ ｜ https://zh-cn.facebook.com/business/help/212763688755026?id=160022731342707
